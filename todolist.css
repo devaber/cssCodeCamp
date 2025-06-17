@@ -1,0 +1,40 @@
+h1{
+  text-align: center;
+}
+a {
+text-decoration: none;
+color: rgb(153,122,141);
+display: block;
+}
+a:visited{
+  color: rgb(85,107,47);
+}
+a:hover{
+  color: rgb(143,188,143);
+}
+a:focus{
+  outline: 2px solid black;
+}
+a:active{
+   color:rgb(126,94,96);
+}
+ul{
+  display: block;
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+}
+li{
+  background-color: rgb(244,240,236);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius:5px;
+}
+label{
+  color: rgb(105,105,105);
+}
+.sub-item{
+  list-style-type: disc;
+  padding-left: 40px;
+}
